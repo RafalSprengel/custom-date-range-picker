@@ -101,7 +101,6 @@ Your app is ready to be deployed!
 
 ## Project Structure
 
-\`\`\`
 custom-date-range-picker/
 ├── public/                  # Static assets (e.g., data.json)
 ├── src/                     # Source code
@@ -112,7 +111,7 @@ custom-date-range-picker/
 │   └── index.js             # Entry point
 ├── README.md                # This file
 └── package.json             # Project dependencies and scripts
-\`\`\`
+
 
 ---
 
