@@ -216,5 +216,5 @@ Contributions are welcome! Please follow these steps:
 
 If you have any questions or suggestions, feel free to reach out:
 
-- GitHub: [your-username](https://github.com/your-username)  
-- Email: your-email@example.com  
+- GitHub: [Rafal Sprengel](https://github.com/RafalSprengel)  
+- Email: sprengel.rafal@gmail.com  
