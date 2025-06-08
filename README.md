@@ -8,16 +8,16 @@ A lightweight and customizable React-based date range picker for selecting date 
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)  
-- [Available Scripts](#available-scripts)  
-- [Project Structure](#project-structure)  
-- [Usage](#usage)  
-- [Styling](#styling)  
-- [Testing](#testing)  
-- [License](#license)  
-- [Contributing](#contributing)  
-- [Acknowledgments](#acknowledgments)  
-- [Contact](#contact)  
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Usage](#usage)
+- [Styling](#styling)
+- [License](#license)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ---
 
@@ -78,29 +78,25 @@ In the project directory, you can run:
 
 ### \`npm start\`
 
-Runs the app in the development mode.  
+Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.  
+The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### \`npm test\`
-
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### \`npm run build\`
 
-Builds the app for production to the \`build\` folder.  
+Builds the app for production to the \`build\` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.  
+The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ---
 
 ## Project Structure
 
+\`\`\`
 custom-date-range-picker/
 ├── public/                  # Static assets (e.g., data.json)
 ├── src/                     # Source code
@@ -111,7 +107,18 @@ custom-date-range-picker/
 │   └── index.js             # Entry point
 ├── README.md                # This file
 └── package.json             # Project dependencies and scripts
+\`\`\`
 
+---
+
+## Features
+
+- **Date Range Selection**: Select a start date with a single click and an end date with another click. The selected range will be visually highlighted.
+- **Reserved Dates**: Reserved or unavailable dates are fetched from an external \`data.json\` file and displayed as disabled in the calendar.
+- **State Update**: After selecting a date range, the application's state is updated, and the selected range is displayed in the summary section.
+- **Clear Selection**: Reset the selected date range with a single click using the "Clear" button.
+- **Responsive Design**: Fully responsive and mobile-friendly UI.
+- **Customizable Styling**: Built with SCSS for easy theming and customization.
 
 ---
 
@@ -133,7 +140,7 @@ The calendar fetches reserved dates from a \`data.json\` file located in the \`p
 
 To integrate the date range picker into your project:
 
-1. Copy the \`Calendar\` component and its dependencies (\`Month\`, \`Day\`, \`utils\`) into your project.  
+1. Copy the \`Calendar\` component and its dependencies (\`Month\`, \`Day\`, \`utils\`) into your project.
 2. Import and use the \`Calendar\` component in your app:
 
    \`\`\`javascript
@@ -170,22 +177,6 @@ Customize the appearance of the calendar by editing the SCSS files in the \`src/
 
 ---
 
-## Testing
-
-This project uses React's built-in testing utilities. To run tests:
-
-\`\`\`bash
-npm test
-\`\`\`
-
-or
-
-\`\`\`bash
-yarn test
-\`\`\`
-
----
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -196,18 +187,18 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository.  
-2. Create a new branch (\`git checkout -b feature/YourFeatureName\`).  
-3. Commit your changes (\`git commit -m "Add some feature"\`).  
-4. Push to the branch (\`git push origin YourFeatureName\`).  
-5. Open a pull request.  
+1. Fork the repository.
+2. Create a new branch (\`git checkout -b feature/YourFeatureName\`).
+3. Commit your changes (\`git commit -m "Add some feature"\`).
+4. Push to the branch (\`git push origin feature/YourFeatureName\`).
+5. Open a pull request.
 
 ---
 
 ## Acknowledgments
 
-- Inspired by modern date pickers used in booking platforms.  
-- Built with React and SCSS for simplicity and flexibility.  
+- Inspired by modern date pickers used in booking platforms.
+- Built with React and SCSS for simplicity and flexibility.
 
 ---
 
@@ -215,5 +206,5 @@ Contributions are welcome! Please follow these steps:
 
 If you have any questions or suggestions, feel free to reach out:
 
-- GitHub: [Rafal Sprengel](https://github.com/RafalSprengel)  
-- Email: sprengel.rafal@gmail.com  
+- GitHub: [Rafal Sprengel](https://github.com/RafalSprengel) 
+- Email: sprengel.rafal@sprengel.com
