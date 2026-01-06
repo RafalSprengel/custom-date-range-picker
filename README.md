@@ -1,5 +1,6 @@
 
-![Screen](https://github.com/user-attachments/assets/d48ede88-0836-4c5a-93b8-baee275e1101)
+![Screen](https://github.com/user-attachments/assets/09e5c714-7c4e-4f77-91d3-9b7c4e6a8a6a)
+
 # Custom Date Range Picker
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/custom-date-range-picker/blob/main/LICENSE) 
