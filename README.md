@@ -34,3 +34,4 @@ Building a calendar component is a classic engineering challenge. It requires pr
 ## 📁 Project Structure
 - `/components`: Contains the `Calendar`, `Month`, and `Day` sub-components.
 - `/utils`: Pure JavaScript functions for date calculations and formatting.
+  
